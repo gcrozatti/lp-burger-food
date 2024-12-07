@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="./src/styles/styles.css" />
     <link rel="stylesheet" href="./src/styles/header.css" />
     <link rel="stylesheet" href="./src/styles/home.css" />
+    <link rel="stylesheet" href="./src/styles/menu.css" />
+    <link rel="stylesheet" href="./src/styles/testimonials.css" />
     <!--CDNs-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -77,18 +79,162 @@
                 </div>
             </div>
             <div id="banner">
-                <img src="/src/images/hero.png" alt="banner"
+                <img src="/src/images/hero.png" alt="banner" />
             </div>
         </section>
 
-        <!-- Shortcut section#menu  -->
+        <!-- Shortcut section#menu to create <section id="menu"> -->
         <section id="menu">
-            <!-- Shortcut h2.section-title  -->
+            <!-- Shortcut h2.section-title to create <h2 class="section-title"> -->
             <h2 class="section-title">Cardápio</h2>
             <h3 class="section-subtitle">Nossos pratos especiais</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="/src/images/dish.png" alt="poke" class="dish-image"/>
+                    <h3 class="dish-title">Lorem Ipsum</h3>
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-start"></i>
+                        <i class="fa-solid fa-start"></i>
+                        <i class="fa-solid fa-start"></i>
+                        <i class="fa-solid fa-start"></i>
+                        <i class="fa-solid fa-start"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>R$200,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div> <!--Dish-1-->
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="/src/images/dish2.png" alt="sandwich" class="dish-image"/>
+                    <h3 class="dish-title">Lorem Ipsum</h3>
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-start"></i>
+                        <i class="fa-solid fa-start"></i>
+                        <i class="fa-solid fa-start"></i>
+                        <i class="fa-solid fa-start"></i>
+                        <i class="fa-solid fa-start"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>R$200,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div> <!--Dish-2-->
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="/src/images/dish3.png" alt="fruit" class="dish-image"/>
+                    <h3 class="dish-title">Lorem Ipsum</h3>
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-start"></i>
+                        <i class="fa-solid fa-start"></i>
+                        <i class="fa-solid fa-start"></i>
+                        <i class="fa-solid fa-start"></i>
+                        <i class="fa-solid fa-start"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>R$200,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div> <!--Dish-3-->
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <img src="/src/images/dish4.png" alt="noodle" class="dish-image"/>
+                    <h3 class="dish-title">Lorem Ipsum</h3>
+                    <span class="dish-description">
+                        Lorem ipsum dolor sit amet
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-start"></i>
+                        <i class="fa-solid fa-start"></i>
+                        <i class="fa-solid fa-start"></i>
+                        <i class="fa-solid fa-start"></i>
+                        <i class="fa-solid fa-start"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>R$200,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div> <!--Dish-3-->
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <img src="/src/images/chef.png" alt="chef cousine" id="testimonial_chef"/>
+
+            <div id="testimonials_content">
+                <h2 class="section-title">Depoismentos</h2>
+                <h3 class="section-subtitle">O que os clientes falam sobre nos</h3>
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="/src/images/avatar.png" alt="" class="feedback_avatar" />
+                        <div class="feedback-content">
+                            <p>Fulana de Tal 
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                        </div>
+                    </div>
+                    <div class="feedback">
+                        <img src="/src/images/avatar.png" alt="" class="feedback_avatar" />
+                        <div class="feedback-content">
+                            <p>Fulana de Tal 
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                        </div>
+                    </div>
+                    <button class="btn-default">
+                        Ver mais avaliações
+                    </button>
+                </div>
+            </div>
+
         </section>
     </main>
 
     <script src="/src/javascript/script.js"></script>
 </body>
-</html> <!-- Retomar video 43min-->
+</html> <!--Continuar video 1h07min-->
